@@ -65,7 +65,6 @@
     <configuration>
         <suiteXmlFiles>
             <suiteXmlFile>
-	regression.xml
                 smoke.xml
             </suiteXmlFile>
         </suiteXmlFiles>
