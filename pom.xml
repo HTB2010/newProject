@@ -5,7 +5,12 @@
 	<groupId>testNG_cohort15</groupId>
 	<artifactId>testNG_cohort15</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
+<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
