@@ -1,0 +1,31 @@
+# add everything
+git add .
+# or add single file
+git add <file_name1>
+# or add multiple files. separate file names with a space ` `
+git add <file_name1> <file_name2>
+
+git commit -m "this message should be meaningful"
+
+Optional: if you make a commit by mistake, run
+to undo the previous commit
+git reset HEAD~
+
+To check existing origin branch
+git branch -a
+# it will show list of local branches & origin branches
+
+To check that your local branch is track with origin branch
+git branch -vv
+
+To publish the branch for the first time.
+# this will set you <branch_name> to track with origin/<branch_name>
+# and push local <branch_name> to origin branch
+git push -u origin <branch_name>
+
+Else if your local branch has already tracked to your origin/.. branch
+To push you change to the existing remote branch:
+git push origin <branch_name>
+
+
+
