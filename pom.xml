@@ -65,8 +65,8 @@
     <configuration>
         <suiteXmlFiles>
             <suiteXmlFile>
-				src\test\resources\regression.xml
-                src\test\resources\smoke.xml
+	regression.xml
+                smoke.xml
             </suiteXmlFile>
         </suiteXmlFiles>
     </configuration>
